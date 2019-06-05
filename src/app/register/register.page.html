@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><img src="assets\register.jpg"></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+<ion-title></ion-title>
+ <form (submit)="onRegister()">
+    <ion-item>
+        <ion-input placeholder="Name"type="text" [(ngModel)]= "name" name="name"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input placeholder="Username" [(ngModel)]= "username"  name="username"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input placeholder="E-mail" type="text" [(ngModel)]= "email" name="email"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input placeholder="Password" type="password" [(ngModel)]= "password" name="password"></ion-input>
+    </ion-item>
+
+        <ion-button expand="full" type="submit">Register</ion-button>
+        <!-- <ion-button expand="full" color="secondary" (click)= "logClicked()">Login</ion-button> -->
+
+</form>
+
+    
+    
+
+</ion-content>

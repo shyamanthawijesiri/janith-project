@@ -1,0 +1,111 @@
+
+<ion-header>
+
+  <ion-toolbar color="medium">
+    <ion-title>    
+      Student Management System          <ion-button color="danger" (click)= "loginClicked()"><ion-icon name="log-in"></ion-icon></ion-button>
+    </ion-title>
+  
+  </ion-toolbar>
+  <ion-button color="success">
+      <ion-icon name="home" slot="start"></ion-icon>Home
+     </ion-button>
+  <ion-button color="success" (click)= "articleClicked()">
+      <ion-icon name="book" slot="start"></ion-icon>Article</ion-button>
+  <ion-button color="success" (click)="coursesClicked()">
+      <ion-icon name="school" slot="start"></ion-icon>Courses</ion-button>
+</ion-header>
+
+  
+<ion-content >
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Company Profile</ion-card-title>
+     </ion-card-header>
+     <ion-card-content>
+<img src="assets\main.jpg" >
+     </ion-card-content>
+     <h1>VICERANT INSTITUTE</h1>
+     <p>..........................<br></p>   
+     <p>..........................<br></p>
+     <p>..........................<br></p>
+     <p>..........................<br></p>
+     <p>..........................<br></p>
+     <p>..........................<br></p>      
+     <p>..........................<br></p>
+     <p>..........................<br></p>
+     
+    <a rel="noopener" target="_blank" href="https://www.vicerant.com/institute">More about us...<ion-icon name="arrow-forward"></ion-icon></a>
+  </ion-card>
+  <ion-card>
+      <ion-card-header color="warning">
+        <!---<ion-card-subtitle>Card Subtitle</ion-card-subtitle>--->
+        <ion-card-title>Recent Events</ion-card-title>
+      </ion-card-header>
+      <ion-slides pager="true">
+
+          <ion-slide> 
+            <img src="assets\event1.jpg">
+          
+          </ion-slide>
+    
+  
+              <ion-slide> 
+                <img src="assets\evant2.jpg">
+          </ion-slide>
+      
+
+              <ion-slide><img src="assets\event3.jpg">
+          </ion-slide>
+        </ion-slides> 
+        <ion-item color="danger">Up comming Ivents.......<ion-icon name="arrow-forward"></ion-icon></ion-item>
+</ion-card>    
+    
+  <ion-card>
+
+    </ion-card>
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button> <ion-icon name="thumbs-up"></ion-icon></ion-fab-button>
+  
+    <ion-fab-list side="start">
+        <a rel="noopener" target="_blank" href="https://www.facebook.com/VicerantCorp/"> <ion-fab-button> <ion-icon name="logo-facebook"></ion-icon></ion-fab-button></a>
+        <a rel="noopener" target="_blank" href="https://www.linkedin.com/company/vicerant/"> <ion-fab-button> <ion-icon name="logo-linkedin"></ion-icon></ion-fab-button></a>
+        <a rel="noopener" target="_blank" href="https://twitter.com/vicerant_trends"> <ion-fab-button> <ion-icon name="logo-twitter"></ion-icon></ion-fab-button></a>
+    </ion-fab-list>
+  
+   
+  
+  </ion-fab>
+  
+  <ion-footer >
+   
+      <ion-item  color="dark">
+        <h1>E-mail</h1> </ion-item>
+        <ion-item color="dark">
+            <p>janitha.17@itfac.mrt.ac.lk</p>
+        
+        </ion-item>
+        <ion-item color="dark">
+            <p>0717171717</p>
+        
+        </ion-item>
+ 
+    
+    </ion-footer>
+
+</ion-content>
+<!---<ion-item color="success">
+    <ion-segment scrollable>
+        <ion-segment-button color="primary">
+          <ion-icon name="home"></ion-icon>HOME
+        </ion-segment-button>
+        <ion-segment-button checked>
+          <ion-icon name="book"></ion-icon>IVENT
+        </ion-segment-button>
+        <ion-segment-button>
+          <ion-icon name="school"></ion-icon>COURSES
+        </ion-segment-button>
+        <ion-segment-button>
+            <ion-icon name="school"></ion-icon>COURSES
+          </ion-segment-button>
+      </ion-segment></ion-item>--->

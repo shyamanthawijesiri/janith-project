@@ -1,0 +1,39 @@
+
+<ion-header>
+    <ion-toolbar><ion-title></ion-title>
+  <ion-item>PROFILE 
+  </ion-item>
+  <ion-button (click)= "lgoutClicked()" color="danger" slot="primary" ><ion-icon name="log-out"></ion-icon></ion-button>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+      <ion-card> <img src="assets\profile.jpg" width="10px" height="100px"> </ion-card>
+
+      <ion-toolbar>
+        <ion-button>Profile Details</ion-button>
+      </ion-toolbar>
+      
+      <ion-toolbar>
+       <ion-button>Cources</ion-button>
+      </ion-toolbar>
+      <ion-toolbar>
+        <ion-button>Payments</ion-button>
+       </ion-toolbar>
+       <ion-toolbar>
+        <ion-button>Attendence</ion-button>
+       </ion-toolbar>
+
+       <ion-toolbar>
+         <ion-title>Courcess</ion-title>
+        <ion-segment>
+          <ion-segment-button value="all" checked>
+            Completed
+          </ion-segment-button>
+          <ion-segment-button value="favorites">
+            Current
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
+      
+  </ion-content>
